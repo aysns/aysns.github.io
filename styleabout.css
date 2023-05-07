@@ -1,0 +1,125 @@
+*,
+html {
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    background-image: url("Walpaper1.jpg");
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+}
+
+.container-navbar {
+    background-color: black;
+    width : 100%;
+    height : 10vh; 
+}
+
+.ul-navbar {
+    display : flex;
+    height : 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding : 20px;
+    margin : 5p;
+    color : white;
+    font-size : 30px;
+}
+
+.li-navbar:hover{
+    background-color: rgb(73, 82, 82);
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-end-end-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800px;
+}
+
+.container-content {
+   /*background-image: url("Walpaper1.jpg");
+    background-repeat: repeat-x;
+    background-attachment: scroll;*/
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 80vh; 
+}
+
+.img-content {
+    width: 10%;
+    height: 20%;
+}
+
+.p1{
+    color: aliceblue;
+    font-size: 30px;
+    padding: 20px;
+    margin : 5px;
+    border: 2px solid white;
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+
+}
+
+.a-content {
+    
+    padding: 20px;
+    margin : 10px;
+    border: 2px solid white;
+    color :white;
+    text-decoration: none;
+    font-size : 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+   
+}
+
+.a-content:hover{
+    background-color: rgb(73, 82, 82);
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-end-end-radius: 8px;
+}
+
+.container-footer {
+    height: 10vh; 
+    background-color: black;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h1-footer {
+    font-size : 40px;
+    color: white;
+}
+
+.container-content-cp{
+    border: 1px solid white;
+    padding : 20px;
+    margin: 10px; /*jarak antar padding*/
+    color: white; /*warna tulisan*/
+     height: 80vh; 
+ }
+
+.p-cp{
+    font-size: 50px;
+    color :white;
+}
+
+.a-content-cp {
+
+}
+
